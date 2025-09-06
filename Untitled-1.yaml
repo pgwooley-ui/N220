@@ -1,0 +1,7 @@
+echo "# N220" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pgwooley-ui/N220.git
+git push -u origin main
